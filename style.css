@@ -20,6 +20,7 @@ h1 {
   color: rgb(255, 255, 255);
   font-weight: normal;
   text-shadow: 1px 1px 10px #000;
+  text-align:center;
 }
 body {
   font-family: "Nunito", sans-serif;
@@ -60,12 +61,13 @@ main {
 /* ELEMENTS */
 .name {
   position: relative;
-  font-size: 4rem;
+  font-size: clamp(2rem, 3.2vw + 1.4rem, 4rem);
   text-transform: uppercase;
   letter-spacing: 1px;
   word-spacing: 2px;
   font-weight: 300;
   margin-bottom: 1rem;
+   text-align:center;
 }
 
 .score {
