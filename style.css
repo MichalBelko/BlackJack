@@ -16,8 +16,7 @@ html {
 h1 {
   position: absolute;
   top: 3rem;
-  font-size: 5rem;
-  margin-bottom: 3rem;
+  font-size: clamp(3.5rem, 21vw - 18rem, 5rem);
   color: rgb(255, 255, 255);
   font-weight: normal;
   text-shadow: 1px 1px 10px #000;
@@ -32,6 +31,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 5rem;
+  overflow-y: hidden;
 }
 
 /* LAYOUT */
@@ -45,7 +45,7 @@ main {
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
   border-radius: 9px;
   display: flex;
-  margin-top: 15rem;
+  margin-top: 10rem;
 }
 
 .player {
